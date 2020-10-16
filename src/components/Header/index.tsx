@@ -323,6 +323,9 @@ export default function Header() {
             </>
               : ''
           }
+          <StyledNavLink id={`stake-nav-link`} to={'/networks'}>
+            Networks
+          </StyledNavLink>
         </HeaderLinks>
       </HeaderRow>
       <HeaderControls>
